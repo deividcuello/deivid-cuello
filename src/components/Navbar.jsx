@@ -30,16 +30,16 @@ function Navbar() {
             <a href="#"><AiFillHome/></a>
           </div>
           <div>
-            <a href="#about"><SiAboutdotme/></a>
+            <a href="#about" className="text-3xl"><SiAboutdotme/></a>
           </div>
           <div>
-            <a href="#skills"><GrPersonalComputer/></a>
+            <a href="#skills" className="text-3xl"><GrPersonalComputer/></a>
           </div>
           <div>
-            <a href="#projects"><AiFillProject/></a>
+            <a href="#projects" className="text-3xl"><AiFillProject/></a>
           </div>
           <div>
-            <a href="#contact"><AiFillContacts/></a>
+            <a href="#contact" className="text-3xl"><AiFillContacts/></a>
           </div>
         </nav>
       }
