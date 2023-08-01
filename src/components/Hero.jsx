@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import hero from '../assets/images/hero.jpg'
 
 function Hero() {
   return (
@@ -20,7 +21,7 @@ function Hero() {
               />
         </div>
         <div className='flex justify-center md:justify-end'>
-            <img src="https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_1280.jpg" alt="Hero-Img" className='w-4/5 ring ring-offset-8 ring-offset-black ring-primary -rotate-12 md:mr-10'/>
+            <img src={hero} alt="Hero-Img" className='w-4/5 ring ring-offset-8 ring-offset-black ring-primary -rotate-12 md:mr-10'/>
         </div>
     </div>
   )

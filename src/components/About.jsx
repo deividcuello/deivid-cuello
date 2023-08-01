@@ -1,4 +1,5 @@
 import React from 'react'
+import smile from '../assets/images/smile.webp'
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
                 <p>I'm excited to connect with fellow developers, entrepreneurs, and businesses that share a passion for innovation and excellence. If you have an exciting project or an idea you'd like to bring to life, feel free to get in touch. I'm always up for a new adventure and the opportunity to create something extraordinary together.</p>
             </div>
             <div>
-                <img src="https://cdn.pixabay.com/photo/2014/12/06/16/52/smiley-559124_1280.png" alt="About-Img" className='w-40 hidden md:block' />
+                <img src={smile} alt="About-Img" className='w-40 hidden md:block' />
             </div>
         </div>
         

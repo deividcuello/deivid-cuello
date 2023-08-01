@@ -11,7 +11,7 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false); 
   return (
     <header className=''>
-        <div className='container mx-auto flex justify-between items-center text-primary bg py-2 fixed top-0 w-full z-[100] bg-black px-2'>
+        <div className='mx-auto flex justify-between items-center text-primary bg py-2 fixed top-0 w-full z-[100] bg-black px-2'>
             <div>
                 <a href="#"><h1 className='text-2xl font-bold'>Deivid Cuello</h1></a>
             </div>
